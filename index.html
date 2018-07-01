@@ -1,35 +1,219 @@
-<!DOCTYPE html>
-<html>
-
- <head>
-   <meta charset="UTF-8">
-   <title>HW Wireframe</title>
-   <link rel="stylesheet" href="style.css">
- </head>
-
- <body>
-   
-   <header class="common-defaults">header</header>
-   
-   <nav class="common-defaults">nav</nav>
-	<div>
-   <section class="common-defaults">section
-   
-   	<article>article
-   			<h1>h1,</h1>
-   			<h2>h2,</h2>
-   			<h3>h3</h3>
-   
-   		<p>p</p>
-   		
-   		
-   	</article>
-
-   </section>
-   
-   <aside class="common-defaults">aside</aside>
-   </div>
-   <footer class="common-defaults">footer</footer>
-
- </body>
-</html>
+<body>
+  <div class="container-fluid">
+    <!-- BGN HEADER -->
+    <header id="header" class="row page-header">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+          <button type=button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">ZhAYinG's Portfolio</a>
+        </div><!--/.navbar-header -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#social">Social</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- END HEADER -->
+    
+    
+    <!-- BGN HOME  -->
+    <section id="home" class="row page-section-home">
+      <div class="col-sm-12">
+        <h1>Innovation at Work</h1>
+        <p>Creating mindful stories online.</p>
+      </div><!--/.col-sm-12 -->
+    </section>
+    <!-- END HOME  -->
+    
+    
+    <!-- BGN ABOUT -->
+    <div id="about" class="row">
+      <!-- BGN ABOUT LEFT COLUMN -->
+      <div id="about_col_one" class="col-sm-4">
+        <h4 id="about_title">Web Developer</h4>
+        <div class="separator_left"></div>
+        <p class="text-justified">
+          Up and coming full stack web developer with over 18 years of growth in technology.  
+          My journey has sent me through the OSI model by building up my knowledge of IT systems starting from the physical layer.  
+          I have finally reached the application layer, this will help close the gap in my knowledge within the field of computer science and engineering.
+          I will never stop learning, yet this will signal the end of an era and the beginning epoch of software release life cycles from pre-alpha to EOL.
+        </p>
+        <br />
+      </div><!--/.col-sm-4 -->
+      
+      <!-- BGN ABOUT CENTER COLUMN -->
+      <div id="about_col_two" class="col-sm-4">
+        <h4 id="skills_title">Tech skills (alpha) :</h4>
+        <div class="separator_left"></div>
+        <ul id="skills center-block">
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>XML</li>
+          <li>SQL</li>
+          <li>PHP</li>
+        </ul>
+      </div><!--/.col-sm-4 -->
+      
+      <!-- BGN ABOUT RIGHT COLUMN -->
+      <div id="about_col_three"  class="col-sm-4">
+        <img id="web_developer" class="img-responsive img-circle img-fluid center-block" alt="zhaying Full Stack Developer" 
+             src="https://s3.amazonaws.com/tra-assets/freecodecamp/zhaying.gif" >
+      </div><!--/.col-sm-4 -->
+      
+    </div><!--/.row ABOUT -->
+    <!-- END ABOUT -->
+    
+    
+    <!-- BGN PORTFOLIO -->
+    <section id="portfolio" class="row page-section-portfolio text-center">
+      <div class="col-sm-12">
+        <h1>Portfolio</h1>
+        <div class="separator_auto"></div>
+      </div><!--/.col-sm-12 -->
+      <div class="col-sm-12 center-block">
+        <!-- BGN portfolio content -->
+        <div class="portfolio_content container">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="col-sm-8 pull-right">
+              <div class="portfolio_item">
+                <img class="img-responsive img-fluid center-block" src="https://s3.amazonaws.com/tra-assets/freecodecamp/portfoliowebsite.png" alt="Portfolio Website">
+                <div class="portfolio_hover text-center">
+                  <h6 class="text-uppercase text-white">Portfolio Website</h6>
+                  <p class=" text-white"></p>
+                  <div class="portfolio_hover_icon">
+                    <a href="https://codepen.io/zhaying/full/awZzVz/" target="_blank" class="popup-img"><i class="fa fa-link"></i></a>
+                  </div>
+                </div>
+              </div>  
+            </div>
+              <div class="col-sm-6 pull-right">
+              <div class="portfolio_item portfolio_item2">
+                <img class="img-responsive img-fluid center-block" src="https://s3.amazonaws.com/tra-assets/freecodecamp/tributepage.png" alt="">
+                <div class="portfolio_hover text-center">
+                  <h6 class="text-uppercase text-white">Tribute page</h6>
+                  <p class=" text-white"></p>
+                  <div class="portfolio_hover_icon">
+                    <a href="https://codepen.io/zhaying/full/EXKXEr/" target="_blank" class="popup-img"><i class="fa fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="col-sm-12 pull-right">
+              <div class="portfolio_item portfolio_item3 sm-m-top-30">
+                <img class="img-responsive img-fluid center-block" src="https://s3.amazonaws.com/tra-assets/freecodecamp/therealmadvisorysite.png" alt="">
+                <div class="portfolio_hover text-center">
+                  <h6 class="text-uppercase text-white">The Realm Adivory</h6>
+                  <p class=" text-white"></p>
+                  <div class="portfolio_hover_icon">
+                    <a href="http://www.the-realm.cc/" target="_blank" class="popup-img"><i class="fa fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!-- END portfolio content -->
+      </div><!--/.col-sm-12 -->
+    </section>
+    <!-- END PORTFOLIO -->
+    
+    
+    <!-- BGN CONTACT -->
+    <section id="contact" class="row page-section-contact">
+      <div class="col-sm-8">
+        <h1>Hire Us</h1>
+        <div class="separator_left"></div>
+        <form class="form-horizontal tpad" role="form">
+          <div class="form-group">
+            <label for="email" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input id="email" class="form-control" type="email" placeholder="Email"></input>
+            </div><!--/.col-lg-10 -->
+          </div><!--/.form-group -->
+          <div class="form-group tpad">
+            <label for="message" class="col-lg-2 control-label">Message</label>
+            <div class="col-lg-10">
+              <textarea id="message" class="form-control" rows="10" placeholder="Message..."></textarea>
+            </div><!--/.col-lg-10 -->
+          </div><!--/.form-group -->
+          <div class="form-group tpad">
+            <div class="col-lg-10 col-lg-offset-2">
+              <a id="send_button" href="#myModal" class="btn btn-primary btn-lg" data-toggle="modal">SEND MESSAGE</a>
+            </div><!--/.col-lg-10 -->
+          </div><!--/.form-group -->
+        </form>
+        <p>
+          Are you in need of an online story to bring your presence to the world?
+          Let us help you instantiate!
+        </p>
+      </div><!--/.col-sm-12 -->
+      <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div id="modal_dialog" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button id="the_x"class="close" type="button" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times-circle fa-lg" aria-hidden="true"></i></button>
+              <h3 class="modal-title">Thank you for submitting</h3>
+            </div><!--/.modal-header -->
+            <div class="modal-body">
+              <p>Cup o'tea while you wait?</p>
+              <br />
+              <br />
+              <p>ZhAYinG</p>
+            </div><!--/.modal-body -->
+            <div class="modal-footer">
+              <a class="btn btn-default btn-lg" href="https://s.codepen.io/zhaying/fullpage/awZzVz?result">OK</a>
+            </div><!--/.modal-footer -->
+          </div><!--/.modal-content -->
+        </div><!--/.modal-dialog -->
+      </div><!--/.modal -->
+      <div class="col-sm-4">
+        <h1 id="social" class="text-right">Social Hour</h1>
+        <div class="separator_left pull-right"></div>
+        <div class="col-sm-4"></div>
+        
+        <!-- SOCIAL -->
+        <div class="col-sm-8 col-sm-offset-2">
+          <div id="social">
+            <br />
+            <ul class="list-unstyled text-center center-block">
+              <li id="social_sphere00"><a href=  "https://www.linkedin.com/in/michael-iglesias-6547664/" target="_blank"><i class="fa fa-linkedin center-sphere"></i></a></li>
+              <li id="social_sphere01"><a href="https://github.com/zhaying" target="_blank"><i class="fa fa-github center-sphere"></i></a></li>
+              <li id="social_sphere02"><a href="https://www.freecodecamp.com/zhaying" target="_blank"><i class="fa fa-free-code-camp center-sphere"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- SOCIAL -->
+        
+      </div><!--/.col-sm-12 -->
+    </section>
+    <!-- END CONTACT -->
+    
+  
+    <!-- BGN FOOTER -->
+    <footer id="footer" class="footer">
+      <hr class="center-block">
+    <p class="text-center">Written and coded by: <a href="https://www.freecodecamp.com/zhaying" target="_blank">ZhAYinG</a> </p>
+      <hr class="center-block">
+  </footer>
+    <!-- END FOOTER -->
+    
+  
+  </div><!--/.container-fluid -->
+</body>
